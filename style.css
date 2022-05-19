@@ -1,0 +1,882 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+/*                  font-family: 'Open Sans', sans-serif;                    */
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+/*                  font-family: 'Russo One', sans-serif;                    */
+
+*{
+    color: white;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #222222;
+}
+
+
+
+
+/* ==================header  */
+
+header{
+    background-color: #222222;
+    padding-top: 18px;
+    background-image: url(img/headerBG.png);
+    background-repeat: no-repeat;
+    background-position: right 70%;
+
+}
+.finished{
+    background-image: none;
+    background-color: #222222;
+}
+.finished main h1{
+    font-family: 'Russo One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #2194FF;
+    margin-top: 160px;
+    margin-bottom: 26px;
+}
+.finished main h2{
+    width: 420px;
+    font-family: 'Russo One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #F1F1F1;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.finished main button{
+    font-family: 'Russo One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: center;
+    color: #F1F1F1;
+    text-shadow: 1px 2px 0px rgba(0, 0, 0, 0.25);
+    width: 365px;
+    height: 87px;
+    padding: 15px 55px;
+    border: 0;
+    border-radius: 11px;
+    background-image: url(img/btn.png);
+    margin: auto;
+    display: block;
+}
+header .upheader h5{
+    width: 130px;
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #2194FF;
+    margin-left: 45px;
+    margin-top: 32px;
+    position: relative;
+}
+header .upheader h5::before{
+    content: "";
+    position: absolute;
+    background-color: white;
+    height: 33px;
+    width: 1px;
+    left: -21px;
+
+}
+header .upheader .col-xxl-3{
+    margin-top: 6px;
+}
+header .upheader .col-xxl-3 a:nth-child(1){
+    font-family: 'Russo One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #F1F1F1;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+header .upheader .col-xxl-3 a:nth-child(2){
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    text-decoration-line: underline;
+    
+    color: #2194FF;
+}
+
+header .header_info{
+    padding-top: 33px;
+    padding-bottom: 72px;
+}
+header .header_info .iconki h5{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    color: #F1F1F1;
+    margin-top: 7px;
+}
+header .header_info .iconki img{
+    margin-right: 8px;
+}
+header .header_info h1{
+    font-family: 'Russo One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 63px;
+    color: #2194FF;
+    margin-top: 12px;
+    margin-bottom: 14px;
+}
+header .header_info h2{
+    font-family: 'Russo One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #F1F1F1;
+}
+header .header_info .lyboy {
+    position: relative;
+}
+header .header_info .lyboy img{
+    position: absolute;
+    top: 0;
+    left: 300px;
+}
+header .header_info .designedbuttonhed{
+    margin-top: 40px;
+    margin-bottom: 13px;
+    font-family: 'Russo One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: center;
+    color: #F1F1F1;
+    text-shadow: 1px 2px 0px rgba(0, 0, 0, 0.25);
+    width: 395px;
+    height: 87px;
+    padding: 15px 55px;
+    border: 0;
+    border-radius: 11px;
+    background-image: url(img/btn.png);
+}
+header .header_info h3{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #F1F1F1;
+    margin-left: 20px;
+}
+
+
+/* ==================header  */
+
+/* =====================modal settings */
+.modal-content{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 33px;
+    padding: 20px 30px;
+    padding-bottom: 39px;
+}
+.modal-content .modal-header{
+    border-bottom: 0;
+}
+.modal-content .modal-header h5{
+    font-family: 'Russo One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #2194FF;
+}
+.modal-content .modal-header .btn-close{
+    background: transparent url(img/X.svg) center/1em auto no-repeat;
+    opacity: 1;
+    width: 3rem;
+}
+.modal-content .modal-body input{
+    background: #FFFFFF;
+    border: 1px solid #DEDEDE;
+    box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 17px 22px;
+    width: 100%;
+    margin-bottom: 24px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: rgba(45, 45, 45, 0.5);
+    outline: none;
+}
+.modal-content .modal-footer{
+    border-top: 0;
+}
+.modal-content .modal-footer .inbutton {
+    font-family: 'Russo One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: center;
+    color: #F1F1F1;
+    text-shadow: 1px 2px 0px rgba(0, 0, 0, 0.25);
+    width: 395px;
+    height: 87px;
+    padding: 15px 55px;
+    border: 0;
+    border-radius: 11px;
+    background-image: url(img/btn.png);
+}
+.modal-footer{
+    position: relative;
+}
+.modal-footer p{
+    position: absolute;
+    bottom: -100%;
+    left: -5%;
+    width: 472px;
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+/* =====================modal settings */
+
+
+/* =========================   COST  */
+
+.cost {
+    background-color: rgba(33, 148, 255, 0.05);
+    padding: 46px 0 100px 0;
+    background-image: url(img/percents.png);
+    background-repeat: no-repeat;
+    background-position: 45.5% 85%;
+    position: relative;
+}
+.cost h1{
+    font-family: 'Russo One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    color: #2194FF;
+    margin-bottom: 50px;
+}
+.cost h2{
+    font-family: 'Russo One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    color: #F1F1F1;
+    margin-bottom: 0;
+}
+.cost h3{
+    font-family: 'Russo One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #2194FF;
+}
+.cost p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    color: #F1F1F1;
+    width: 245px;
+    float: left;
+    margin-top: 21px;
+    margin-bottom: 28px;
+}
+.cost button{
+    background: #2194FF;
+    border-radius: 50px;
+    padding: 8px 35px 10px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #F1F1F1;
+    border: 0;
+    display: block;
+}
+.cost h4{
+    font-family: 'Russo One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #F1F1F1;
+    opacity: 0.7;
+}
+.cost h5{
+    font-family: 'Russo One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    color: rgba(241, 241, 241, 0.7);
+}
+.cost h6{
+    font-family: 'Russo One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: rgba(241, 241, 241, 0.7);
+}
+
+.cost .line::after{
+    content: '';
+    position: absolute;
+    background-color: rgba(241, 241, 241, 0.3);
+    height: 60px;
+    width: 1px;
+    left: 41%;
+    top: 9%;
+}
+.cost a{
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+/* =========================   COST  */
+
+
+/* =================================advantages  */
+
+.advantages{
+    padding: 55px 0px 40px;
+}
+.advantages h1{
+    font-family: 'Russo One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    color: #F1F1F1;
+    margin-bottom: 25px;
+}
+.advantages img{
+    display: block;
+    margin: auto;
+    margin-bottom: 5px;
+}
+.advantages h2{
+    font-family: 'Russo One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #2194FF;
+    word-wrap: calc(50%);
+}
+.advantages p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #F1F1F1;
+}
+
+/* =================================advantages  */
+
+
+/* ======================================= lilInfo  */
+
+.lilInfo{
+    padding-bottom: 61px;
+    background-image: url(img/half-invisible-truck.png);
+    background-repeat: no-repeat;
+    background-position: 25% center;
+}
+.lilInfo h1{
+    font-family: 'Russo One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 42px;
+    color: #F1F1F1;
+    margin-top: 0;
+    padding-top: 0;
+}
+.lilInfo h1 span{
+    font-family: 'Russo One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 42px;
+    color: #2194FF;
+}
+.lilInfo h2{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 19px;
+    color: #F1F1F1;
+    background: #2194FF;
+    padding: 7px 13px 9px 12px;
+    margin-top: 20px;
+}
+
+/* ======================================= lilInfo  */
+
+
+
+/* =======================================choooose */
+
+.choose {
+    background-color: rgba(33, 148, 255, 0.05);
+    padding-top: 34px;
+    padding-bottom: 64px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.choose h1{
+    font-family: 'Russo One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    color: #2194FF;
+    margin-bottom: 35px;
+}
+
+.choose .row{
+    flex-direction: column;
+    margin: auto;
+}
+
+.choose .list-group{
+    flex-direction: row;
+    margin-bottom: 40px;
+}
+
+.choose .list-group .list-group-item{
+    background: rgba(241, 241, 241, 0.2);
+    border-radius: 20px;
+    width: 164px;
+    height: 64px;
+    border: 0;
+    padding: 10px 40px;
+    margin: 0 12px;
+}
+
+.choose .list-group .list-group-item h3{
+    font-family: 'Russo One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #F1F1F1;
+    opacity: 0.7;
+    text-shadow: 1px 2px 0px rgba(0, 0, 0, 0.25);
+}
+
+.choose .list-group .active{
+    padding: 10px 40px;
+    background: #2194FF;
+    border-radius: 20px;
+    width: 164px;
+    height: 64px;
+    border: 0;
+    margin: 0 12px;
+}
+.choose .list-group .active h3{
+    font-family: 'Russo One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    opacity: 1;
+    color: #F1F1F1;
+    text-shadow: 1px 2px 0px rgba(0, 0, 0, 0.25);
+}
+
+.choose .tab-content .fade{
+    margin: auto;
+    position: relative;
+    left: 50%;
+    transform: translateX(-35%);
+}
+
+.choose button{
+    background-image: url(img/btn1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 285px;
+    height: 87px;
+    font-family: 'Russo One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #F1F1F1;
+    text-shadow: 1px 2px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    border:none;
+    margin: auto;
+}
+/* =======================================choooose */
+
+
+
+/* ====================================feeeeeedbacks :)  */
+
+.feedbacks{
+
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper {
+    margin-left: auto;
+    margin-right: auto;
+}
+.swiper-slide {
+    height: 400px; width: 100px;
+    font-family: 'Russo One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    color: #2194FF;
+}
+
+/* ====================================feeeeeedbacks :)  */
+
+
+
+/* ===================answers */
+.answers{
+    padding-top: 37px;
+    padding-bottom: 40px;
+    background: rgba(33, 148, 255, 0.05);
+}
+.answers h1{
+    font-family: 'Russo One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    color: #2194FF;
+}
+
+
+
+.accordion {
+    --bs-accordion-bg:transparent;
+    --bs-accordion-border-color:transparent;
+}
+.accordion-button{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    text-transform: uppercase;
+    color: #F1F1F1;
+}
+.accordion-header{
+    --bs-accordion-active-bg:transparent;
+}
+.accordion-button:not(.collapsed){
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #2194FF;
+}
+.accordion-item{
+    border: 0;
+}
+.accordion-button:focus{
+    border: 0;
+    box-shadow: none;
+}
+
+/* ===================answers */
+
+
+/* <!-- ========================== ask a queastion --> */
+
+.queastion{
+    padding: 55px 0 65px;
+
+}
+.queastion h1{
+    font-family: 'Russo One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    color: #F1F1F1;
+    margin-bottom: 50px;
+}
+.queastion input{
+    width: 402px;
+    height: 51px;
+    background: #FFFFFF;
+    border: 1px solid #DEDEDE;
+    box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 17px 22px 18px;
+    margin-bottom: 24px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: rgba(45, 45, 45, 0.5);
+    outline: none;
+}
+.queastion textarea{
+    width: 402px;
+    height: 112px;
+    background: #FFFFFF;
+    border: 1px solid #DEDEDE;
+    box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: rgba(45, 45, 45, 0.5);
+    outline: none;
+    padding: 17px 22px;
+    margin-bottom: 35px;
+    resize: none;
+}
+.queastion .button{
+    width: 220px;
+    height: 47px;
+    background: #2194FF;
+    border-radius: 50px;
+    padding: 10px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #F1F1F1;
+    border: 0;
+}
+.queastion .man {
+    position: absolute;
+    right: 135px;
+    top: -15px;
+}
+/* <!-- ========================== ask a queastion --> */
+
+
+/*            ======================== img line  */
+.imgLine h1{
+    font-family: 'Russo One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    color: #2194FF;
+}
+.imgLine button{
+    background-image: url(img/btn1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 285px;
+    height: 87px;
+    font-family: 'Russo One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #F1F1F1;
+    text-shadow: 1px 2px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    border:none;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.imgLine .map {
+    background: #F1F1F1;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 33px;
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-bottom: 45px;
+    background-image: url(img/map.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    margin-bottom: 40px;
+}
+.imgLine .map h2{
+    font-family: 'Russo One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase; 
+    color: #2194FF; 
+    margin-bottom: 15px;   
+}
+.imgLine .map h3{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #1B2639;
+    position: relative;
+    margin-bottom: 50px;
+}
+.imgLine .map h3::after{
+    content: "";
+    position: absolute;
+    background-color: rgba(27, 38, 57, 0.2);
+    height: 1px;
+    width: 490px;
+    bottom: -20px;
+    left: 0;
+}
+.imgLine .map h4{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #2194FF;
+    margin-bottom: 3px;
+}
+.imgLine .map h5{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #1B2639;
+    margin-bottom: 45px;
+}
+.imgLine .map a{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #1B2639;
+    margin-bottom: 45px;
+    text-decoration: none;
+}
+.imgLine .politica{
+    margin-bottom: 60px;
+}
+.imgLine .politica a{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-decoration-line: underline;
+    color: #F1F1F1;
+}
+.imgLine .politica a:nth-child(1){
+    margin-left: 30px;
+}
+.imgLine .politica a:nth-child(2){
+    margin-right: 30px;
+}
+/*            ======================== img line  */
